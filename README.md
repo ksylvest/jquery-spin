@@ -7,7 +7,6 @@ Spinner is a simple jQuery plugin designed to animated spinners with only CSS an
 To install copy the *javascripts* and *stylesheets* directories into your project and add the following snippet to the header:
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.17/jquery-ui.min.js" type="text/javascript"></script>
     <script src="javascripts/jquery.spinner.js" type="text/javascript"></script>
     <link href="stylesheets/jquery.spinner.css" rel="stylesheet" type="text/css" />
 
