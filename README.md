@@ -15,7 +15,7 @@ To install copy the *javascripts* and *stylesheets* directories into your projec
 
 Setting up a spinner is easy:
     
-    <div data-spinner />
+    <div class="spinner" data-spinner />
 
 ## Copyright
 
