@@ -10,12 +10,38 @@ To install copy the *javascripts* and *stylesheets* directories into your projec
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.17/jquery-ui.min.js" type="text/javascript"></script>
     <script src="javascripts/jquery.spinner.js" type="text/javascript"></script>
     <link href="stylesheets/jquery.spinner.css" rel="stylesheet" type="text/css" />
-  
+
+Or, if you are using Ruby on Rails with the asset pipeline:
+
+    # Gemfile
+    gem 'jquery-rails'
+    gem 'jquery-spinner-rails'
+
+    # app/assets/javascripts/application.js
+    //= require jquery
+    //= require jquery.spinner
+    //= require_self
+    //= require_tree
+
+    # app/assets/stylesheets/application.css
+    /*
+     *= require jquery.spinner
+     *= require_self
+     *= require_tree
+    */
+
 ## Examples
 
 Setting up a spinner is easy:
-    
+
     <div class="spinner" data-spinner />
+
+Some advanced options include:
+
+    $('.spinner').spinner();
+    $('.spinner').spinner('show');
+    $('.spinner').spinner('hide');
+
 
 ## Copyright
 
