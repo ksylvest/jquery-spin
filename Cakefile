@@ -17,7 +17,3 @@ task 'watch', 'SASS and CoffeeScript asset watching', (options) ->
 
 task 'compile', 'HAML sample compilation', (opions) ->
   command 'haml', 'sample.haml', 'sample.html'
-
-notify = (title = '', message = '') -> 
-  options = title: title
-  growl.notify message, options
