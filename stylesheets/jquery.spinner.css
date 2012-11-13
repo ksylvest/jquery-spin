@@ -3,34 +3,55 @@
     opacity: 0.2; }
 
   100% {
-    opacity: 1.0; } }
+    opacity: 1; } }
 
 @-moz-keyframes spinner {
   0% {
     opacity: 0.2; }
 
   100% {
-    opacity: 1.0; } }
+    opacity: 1; } }
 
 @-ms-keyframes spinner {
   0% {
     opacity: 0.2; }
 
   100% {
-    opacity: 1.0; } }
+    opacity: 1; } }
 
-@-o-keyframe spinner {
+@-o-keyframes spinner {
   0% {
     opacity: 0.2; }
 
   100% {
-    opacity: 1.0; } }
+    opacity: 1; } }
+
+@-keyframes spinner {
+  0% {
+    opacity: 0.2; }
+
+  100% {
+    opacity: 1; } }
 
 .spinner {
   position: relative;
   display: block;
   width: 128px;
   height: 128px; }
+  .spinner.outlined {
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+    border-radius: 16px; }
+  .spinner.gleam {
+    background: #444444; }
+    .spinner.gleam > * {
+      background: white; }
+  .spinner.dusky {
+    background: white; }
+    .spinner.dusky > * {
+      backgrund: #444444; }
   .spinner > * {
     opacity: 0.2;
     position: absolute;
@@ -38,12 +59,12 @@
     height: 24%;
     left: 46%;
     top: 38%;
-    background: #000;
-    -webkit-border-radius: 80px;
-    -moz-border-radius: 80px;
-    -ms-border-radius: 80px;
-    -o-border-radius: 80px;
-    border-radius: 80px;
+    background: black;
+    -webkit-border-radius: 128px;
+    -moz-border-radius: 128px;
+    -ms-border-radius: 128px;
+    -o-border-radius: 128px;
+    border-radius: 128px;
     -webkit-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.4);
     -moz-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.4);
     box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.4);
@@ -56,72 +77,72 @@
       -ms-transform: rotate(40deg) translate(0, -120%);
       -o-transform: rotate(40deg) translate(0, -120%);
       transform: rotate(40deg) translate(0, -120%);
-      -webkit-animation-delay: 0.111s;
-      -moz-animation-delay: 0.111s;
-      animation-delay: 0.111s; }
+      -webkit-animation-delay: 0.11111s;
+      -moz-animation-delay: 0.11111s;
+      animation-delay: 0.11111s; }
     .spinner > *:nth-child(2) {
       -webkit-transform: rotate(80deg) translate(0, -120%);
       -moz-transform: rotate(80deg) translate(0, -120%);
       -ms-transform: rotate(80deg) translate(0, -120%);
       -o-transform: rotate(80deg) translate(0, -120%);
       transform: rotate(80deg) translate(0, -120%);
-      -webkit-animation-delay: 0.222s;
-      -moz-animation-delay: 0.222s;
-      animation-delay: 0.222s; }
+      -webkit-animation-delay: 0.22222s;
+      -moz-animation-delay: 0.22222s;
+      animation-delay: 0.22222s; }
     .spinner > *:nth-child(3) {
       -webkit-transform: rotate(120deg) translate(0, -120%);
       -moz-transform: rotate(120deg) translate(0, -120%);
       -ms-transform: rotate(120deg) translate(0, -120%);
       -o-transform: rotate(120deg) translate(0, -120%);
       transform: rotate(120deg) translate(0, -120%);
-      -webkit-animation-delay: 0.333s;
-      -moz-animation-delay: 0.333s;
-      animation-delay: 0.333s; }
+      -webkit-animation-delay: 0.33333s;
+      -moz-animation-delay: 0.33333s;
+      animation-delay: 0.33333s; }
     .spinner > *:nth-child(4) {
       -webkit-transform: rotate(160deg) translate(0, -120%);
       -moz-transform: rotate(160deg) translate(0, -120%);
       -ms-transform: rotate(160deg) translate(0, -120%);
       -o-transform: rotate(160deg) translate(0, -120%);
       transform: rotate(160deg) translate(0, -120%);
-      -webkit-animation-delay: 0.444s;
-      -moz-animation-delay: 0.444s;
-      animation-delay: 0.444s; }
+      -webkit-animation-delay: 0.44444s;
+      -moz-animation-delay: 0.44444s;
+      animation-delay: 0.44444s; }
     .spinner > *:nth-child(5) {
       -webkit-transform: rotate(200deg) translate(0, -120%);
       -moz-transform: rotate(200deg) translate(0, -120%);
       -ms-transform: rotate(200deg) translate(0, -120%);
       -o-transform: rotate(200deg) translate(0, -120%);
       transform: rotate(200deg) translate(0, -120%);
-      -webkit-animation-delay: 0.556s;
-      -moz-animation-delay: 0.556s;
-      animation-delay: 0.556s; }
+      -webkit-animation-delay: 0.55556s;
+      -moz-animation-delay: 0.55556s;
+      animation-delay: 0.55556s; }
     .spinner > *:nth-child(6) {
       -webkit-transform: rotate(240deg) translate(0, -120%);
       -moz-transform: rotate(240deg) translate(0, -120%);
       -ms-transform: rotate(240deg) translate(0, -120%);
       -o-transform: rotate(240deg) translate(0, -120%);
       transform: rotate(240deg) translate(0, -120%);
-      -webkit-animation-delay: 0.667s;
-      -moz-animation-delay: 0.667s;
-      animation-delay: 0.667s; }
+      -webkit-animation-delay: 0.66667s;
+      -moz-animation-delay: 0.66667s;
+      animation-delay: 0.66667s; }
     .spinner > *:nth-child(7) {
       -webkit-transform: rotate(280deg) translate(0, -120%);
       -moz-transform: rotate(280deg) translate(0, -120%);
       -ms-transform: rotate(280deg) translate(0, -120%);
       -o-transform: rotate(280deg) translate(0, -120%);
       transform: rotate(280deg) translate(0, -120%);
-      -webkit-animation-delay: 0.778s;
-      -moz-animation-delay: 0.778s;
-      animation-delay: 0.778s; }
+      -webkit-animation-delay: 0.77778s;
+      -moz-animation-delay: 0.77778s;
+      animation-delay: 0.77778s; }
     .spinner > *:nth-child(8) {
       -webkit-transform: rotate(320deg) translate(0, -120%);
       -moz-transform: rotate(320deg) translate(0, -120%);
       -ms-transform: rotate(320deg) translate(0, -120%);
       -o-transform: rotate(320deg) translate(0, -120%);
       transform: rotate(320deg) translate(0, -120%);
-      -webkit-animation-delay: 0.889s;
-      -moz-animation-delay: 0.889s;
-      animation-delay: 0.889s; }
+      -webkit-animation-delay: 0.88889s;
+      -moz-animation-delay: 0.88889s;
+      animation-delay: 0.88889s; }
     .spinner > *:nth-child(9) {
       -webkit-transform: rotate(360deg) translate(0, -120%);
       -moz-transform: rotate(360deg) translate(0, -120%);
