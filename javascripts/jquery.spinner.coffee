@@ -7,15 +7,15 @@ Copyright 2012 Kevin Sylvestre
 
 $ = jQuery
 
-Spinner = (element, options) ->
-  @$element = $(element)
-  @options = $.extend {}, $.fn.spinner.defaults, options
-  @configure()
+class Spinner
+  defaults:
+    petals: 9
   
-  return @
-
-Spinner.prototype =
-
+  constructor: (element, options) ->
+    @$element = $(element)
+    @options = $.extend {}, @defaults, options
+    @configure()
+  
   show: ->
     @$element.animate(opacity: 1.0)
 
@@ -38,9 +38,6 @@ $.fn.spinner = (options) ->
     data = $this.data('spinner')
     $this.data('spinner', data = new Spinner($this, options)) unless data?
     data[options]() if typeof options is 'string'
-
-$.fn.spinner.defaults =
-  petals: 9
 
 $ ->
   $('[data-spin="spinner"]').spinner()
