@@ -11,9 +11,10 @@ command = (name, args...) ->
   
   proc.on 'exit', (status) -> process.exit(1) if status != 0
 
-task 'watch', 'SASS and CoffeeScript asset watching', (options) ->
-  command 'sass', '--watch', 'stylesheets:stylesheets', '-r', './bourbon/lib/bourbon.rb'
-  command 'coffee', '-wc', 'javascripts'
+task 'watch', 'HAML, SASS and CoffeeScript watching', (options) ->
+  command 'kicker', '--silent', '--quiet', '--execute', 'cake compile'
 
-task 'compile', 'HAML sample compilation', (opions) ->
+task 'compile', 'HAML, SASS and CoffeeScript compilation', (opions) ->
+  command 'sass', '--update', 'stylesheets:stylesheets', '--require', './bourbon/lib/bourbon.rb'
+  command 'coffee', '--compile', 'javascripts'
   command 'haml', 'sample.haml', 'sample.html'
