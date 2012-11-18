@@ -1,6 +1,8 @@
 @import 'bourbon/bourbon'
 
+$initial: 1
 $petals: 9
+$duration: 0.6s
 
 @mixin keyframes($name)
   @-webkit-keyframes #{$name}
@@ -18,7 +20,7 @@ $petals: 9
   0%
     opacity: 0.2
   100% 
-    opacity: 1.0
+    opacity: 0.4
 
 .spinner
   position: relative
@@ -26,18 +28,18 @@ $petals: 9
 
   width: 128px
   height: 128px
-  
-  &.outlined
-    @include border-radius(16px)
+  margin: 16px
 
   &.gleam
     background: #444
+    @include border-radius(16px)
     > *
       background: #fff
   &.dusky
     background: #fff
+    @include border-radius(16px)
     > *
-      backgrund: #444
+      background: #444
 
   > *
     opacity: 0.2
@@ -51,9 +53,9 @@ $petals: 9
     @include border-radius(128px)
     @include box-shadow(0px 0px 2px rgba(0.0, 0.0, 0.0, 0.4))
 
-    @include animation(spinner 1s linear infinite)
+    @include animation(spinner $duration linear infinite)
 
-    @for $i from 1 through 9
+    @for $i from $initial through $petals
       &:nth-child#{"(" + $i + ")"}
         @include transform(rotate((360.0 / $petals * $i) + deg) translate(0, -120%))
-        @include animation-delay((1.0 / $petals * $i) + s)
+        @include animation-delay(($duration / $petals * $i))

@@ -3,55 +3,54 @@
     opacity: 0.2; }
 
   100% {
-    opacity: 1; } }
+    opacity: 0.4; } }
 
 @-moz-keyframes spinner {
   0% {
     opacity: 0.2; }
 
   100% {
-    opacity: 1; } }
+    opacity: 0.4; } }
 
 @-ms-keyframes spinner {
   0% {
     opacity: 0.2; }
 
   100% {
-    opacity: 1; } }
+    opacity: 0.4; } }
 
 @-o-keyframes spinner {
   0% {
     opacity: 0.2; }
 
   100% {
-    opacity: 1; } }
+    opacity: 0.4; } }
 
 @-keyframes spinner {
   0% {
     opacity: 0.2; }
 
   100% {
-    opacity: 1; } }
+    opacity: 0.4; } }
 
 .spinner {
   position: relative;
   display: block;
   width: 128px;
-  height: 128px; }
-  .spinner.outlined {
-    -webkit-border-radius: 16px;
-    -moz-border-radius: 16px;
-    -ms-border-radius: 16px;
-    -o-border-radius: 16px;
-    border-radius: 16px; }
+  height: 128px;
+  margin: 16px; }
   .spinner.gleam {
-    background: #444444; }
+    background: #444444;
+    -webkit-border-radius: 16px;
+    border-radius: 16px; }
     .spinner.gleam > * {
       background: white; }
   .spinner.dusky {
-    background: white; }
+    background: white;
+    -webkit-border-radius: 16px;
+    border-radius: 16px; }
     .spinner.dusky > * {
-      backgrund: #444444; }
+      background: #444444; }
   .spinner > * {
     opacity: 0.2;
     position: absolute;
@@ -61,94 +60,90 @@
     top: 38%;
     background: black;
     -webkit-border-radius: 128px;
-    -moz-border-radius: 128px;
-    -ms-border-radius: 128px;
-    -o-border-radius: 128px;
     border-radius: 128px;
     -webkit-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.4);
-    -moz-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.4);
     box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.4);
-    -webkit-animation: spinner 1s linear infinite;
-    -moz-animation: spinner 1s linear infinite;
-    animation: spinner 1s linear infinite; }
+    -webkit-animation: spinner 0.6s linear infinite;
+    -moz-animation: spinner 0.6s linear infinite;
+    animation: spinner 0.6s linear infinite; }
     .spinner > *:nth-child(1) {
       -webkit-transform: rotate(40deg) translate(0, -120%);
       -moz-transform: rotate(40deg) translate(0, -120%);
       -ms-transform: rotate(40deg) translate(0, -120%);
       -o-transform: rotate(40deg) translate(0, -120%);
       transform: rotate(40deg) translate(0, -120%);
-      -webkit-animation-delay: 0.11111s;
-      -moz-animation-delay: 0.11111s;
-      animation-delay: 0.11111s; }
+      -webkit-animation-delay: 0.06667s;
+      -moz-animation-delay: 0.06667s;
+      animation-delay: 0.06667s; }
     .spinner > *:nth-child(2) {
       -webkit-transform: rotate(80deg) translate(0, -120%);
       -moz-transform: rotate(80deg) translate(0, -120%);
       -ms-transform: rotate(80deg) translate(0, -120%);
       -o-transform: rotate(80deg) translate(0, -120%);
       transform: rotate(80deg) translate(0, -120%);
-      -webkit-animation-delay: 0.22222s;
-      -moz-animation-delay: 0.22222s;
-      animation-delay: 0.22222s; }
+      -webkit-animation-delay: 0.13333s;
+      -moz-animation-delay: 0.13333s;
+      animation-delay: 0.13333s; }
     .spinner > *:nth-child(3) {
       -webkit-transform: rotate(120deg) translate(0, -120%);
       -moz-transform: rotate(120deg) translate(0, -120%);
       -ms-transform: rotate(120deg) translate(0, -120%);
       -o-transform: rotate(120deg) translate(0, -120%);
       transform: rotate(120deg) translate(0, -120%);
-      -webkit-animation-delay: 0.33333s;
-      -moz-animation-delay: 0.33333s;
-      animation-delay: 0.33333s; }
+      -webkit-animation-delay: 0.2s;
+      -moz-animation-delay: 0.2s;
+      animation-delay: 0.2s; }
     .spinner > *:nth-child(4) {
       -webkit-transform: rotate(160deg) translate(0, -120%);
       -moz-transform: rotate(160deg) translate(0, -120%);
       -ms-transform: rotate(160deg) translate(0, -120%);
       -o-transform: rotate(160deg) translate(0, -120%);
       transform: rotate(160deg) translate(0, -120%);
-      -webkit-animation-delay: 0.44444s;
-      -moz-animation-delay: 0.44444s;
-      animation-delay: 0.44444s; }
+      -webkit-animation-delay: 0.26667s;
+      -moz-animation-delay: 0.26667s;
+      animation-delay: 0.26667s; }
     .spinner > *:nth-child(5) {
       -webkit-transform: rotate(200deg) translate(0, -120%);
       -moz-transform: rotate(200deg) translate(0, -120%);
       -ms-transform: rotate(200deg) translate(0, -120%);
       -o-transform: rotate(200deg) translate(0, -120%);
       transform: rotate(200deg) translate(0, -120%);
-      -webkit-animation-delay: 0.55556s;
-      -moz-animation-delay: 0.55556s;
-      animation-delay: 0.55556s; }
+      -webkit-animation-delay: 0.33333s;
+      -moz-animation-delay: 0.33333s;
+      animation-delay: 0.33333s; }
     .spinner > *:nth-child(6) {
       -webkit-transform: rotate(240deg) translate(0, -120%);
       -moz-transform: rotate(240deg) translate(0, -120%);
       -ms-transform: rotate(240deg) translate(0, -120%);
       -o-transform: rotate(240deg) translate(0, -120%);
       transform: rotate(240deg) translate(0, -120%);
-      -webkit-animation-delay: 0.66667s;
-      -moz-animation-delay: 0.66667s;
-      animation-delay: 0.66667s; }
+      -webkit-animation-delay: 0.4s;
+      -moz-animation-delay: 0.4s;
+      animation-delay: 0.4s; }
     .spinner > *:nth-child(7) {
       -webkit-transform: rotate(280deg) translate(0, -120%);
       -moz-transform: rotate(280deg) translate(0, -120%);
       -ms-transform: rotate(280deg) translate(0, -120%);
       -o-transform: rotate(280deg) translate(0, -120%);
       transform: rotate(280deg) translate(0, -120%);
-      -webkit-animation-delay: 0.77778s;
-      -moz-animation-delay: 0.77778s;
-      animation-delay: 0.77778s; }
+      -webkit-animation-delay: 0.46667s;
+      -moz-animation-delay: 0.46667s;
+      animation-delay: 0.46667s; }
     .spinner > *:nth-child(8) {
       -webkit-transform: rotate(320deg) translate(0, -120%);
       -moz-transform: rotate(320deg) translate(0, -120%);
       -ms-transform: rotate(320deg) translate(0, -120%);
       -o-transform: rotate(320deg) translate(0, -120%);
       transform: rotate(320deg) translate(0, -120%);
-      -webkit-animation-delay: 0.88889s;
-      -moz-animation-delay: 0.88889s;
-      animation-delay: 0.88889s; }
+      -webkit-animation-delay: 0.53333s;
+      -moz-animation-delay: 0.53333s;
+      animation-delay: 0.53333s; }
     .spinner > *:nth-child(9) {
       -webkit-transform: rotate(360deg) translate(0, -120%);
       -moz-transform: rotate(360deg) translate(0, -120%);
       -ms-transform: rotate(360deg) translate(0, -120%);
       -o-transform: rotate(360deg) translate(0, -120%);
       transform: rotate(360deg) translate(0, -120%);
-      -webkit-animation-delay: 1s;
-      -moz-animation-delay: 1s;
-      animation-delay: 1s; }
+      -webkit-animation-delay: 0.6s;
+      -moz-animation-delay: 0.6s;
+      animation-delay: 0.6s; }
