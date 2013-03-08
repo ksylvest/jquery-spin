@@ -1,11 +1,6 @@
-source 'https://rubygems.org'
+source :rubygems
 
 gem 'haml'
 gem 'sass'
-gem 'jasmine'
+gem 'neat'
 gem 'bourbon'
-gem 'kicker'
-
-gem 'rb-inotify', require: false
-gem 'rb-fsevent', require: false
-gem 'rb-fchange', require: false
