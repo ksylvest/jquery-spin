@@ -19,6 +19,8 @@
       <h2>Example</h2>
       <section class='examples'>
         <div class='spin' data-spin='spin'></div>
+        <div class='spin spin-gleam' data-spin='spin'></div>
+        <div class='spin spin-dusky' data-spin='spin'></div>
       </section>
       <h2>Installation</h2>
       <p>To install download one of these packages and include the jquery.spin.js and jquery.spin.css files in your head with the following:</p>
@@ -36,6 +38,9 @@
       <pre><code data-language='html'>&lt;div class=&quot;spin&quot; data-spin /&gt;</code></pre>
       <p>To add spinners manually try:</p>
       <pre><code data-lanagauge='javascript'>$('.spin').spin();&#x000A;$('.spin').spin('show');&#x000A;$('.spin').spin('hide');</code></pre>
+      <h2>Styling</h2>
+      <p>Theming a spinner is easy:</p>
+      <pre><code data-language='css'>.spin&#x000A;{&#x000A;  background: #444; /* outline */&#x000A;  &gt; *&#x000A;  {&#x000A;    background: #EEE; /* hand */&#x000A;  }&#x000A;}</code></pre>
       <p>Copyright (c) 2010 - 2013 Kevin Sylvestre.</p>
     </div>
   </body>

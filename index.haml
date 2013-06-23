@@ -17,6 +17,8 @@
       %h2 Example
       %section.examples
         .spin{ data: { spin: "spin" } }
+        .spin.spin-gleam{ data: { spin: "spin" } }
+        .spin.spin-dusky{ data: { spin: "spin" } }
       %h2 Installation
       %p To install download one of these packages and include the jquery.spin.js and jquery.spin.css files in your head with the following:
       %section.formats
@@ -46,4 +48,18 @@
               $('.spin').spin();
               $('.spin').spin('show');
               $('.spin').spin('hide');
+      %h2 Styling
+      %p Theming a spinner is easy:
+      %pre
+        %code{ data: { language: "css" } }
+          = preserve do
+            :escaped
+              .spin
+              {
+                background: #444; /* outline */
+                > *
+                {
+                  background: #EEE; /* hand */
+                }
+              }
       %p Copyright (c) 2010 - 2013 Kevin Sylvestre.

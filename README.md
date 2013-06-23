@@ -22,6 +22,18 @@ To add spinners manually try:
     $('.spin').spin('show');
     $('.spin').spin('hide');
 
+## Styling
+    
+Styling a spinner is easy:
+
+    .spin
+    {
+      background: #444; /* outline */
+      > *
+      {
+        background: #EEE; /* hand */
+      }
+    }
 
 ## Copyright
 

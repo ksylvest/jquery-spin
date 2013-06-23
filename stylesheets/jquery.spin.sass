@@ -1,8 +1,11 @@
-@import 'bourbon/bourbon'
+@import bourbon/bourbon
+
+$namespace: "spin"
 
 $initial: 1
 $petals: 9
-$duration: 0.6s
+
+$duration: 0.8s
 
 @mixin keyframes($name)
   @-webkit-keyframes #{$name}
@@ -24,20 +27,22 @@ $duration: 0.6s
 
 .spin
   position: relative
-  display: block
+  display: inline-block
 
   width: 128px
   height: 128px
   margin: 16px
 
-  &.gleam
+  &.spin-gleam
     background: #444
-    border-radius: 16px
+    border:
+      radius: 16px
     > *
-      background: #fff
-  &.dusky
-    background: #fff
-    border-radius: 16px
+      background: #EEE
+  &.spin-dusky
+    background: #EEE
+    border:
+      radius: 16px
     > *
       background: #444
 
