@@ -1,0 +1,27 @@
+{
+  "name": "spin",
+  "title": "jQuery Sping",
+  "description": "Spin is a jQuery plugin designed to created animated loading indicators with only CSS and JavaScript.",
+  "keywords": ["progress","loading","indiciator"],
+  "version": "1.0.4",
+  "author": {
+    "name": "Kevin Sylvestre",
+    "email": "kevin@ksylvest.com",
+    "url": "http://ksylvest.com/"
+  },
+  "licenses": 
+  [
+    {
+      "type": "MIT",
+      "url": "https://github.com/ksylvest/jquery-spin/LICENSE"
+    }
+  ],
+  "bugs": "https://github.com/ksylvest/jquery-spin/issues",
+  "docs": "https://ksylvest.github.com/jquery-spin",
+  "homepage": "https://ksylvest.github.com/jquery-spin",
+  "download": "https://ksylvest.github.com/jquery-spin",
+  "dependencies": 
+  {
+    "jquery": ">1.5"
+  }
+}
