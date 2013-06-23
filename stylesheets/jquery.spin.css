@@ -1,55 +1,55 @@
-@-webkit-keyframes spinner {
+@-webkit-keyframes spin {
   0% {
     opacity: 0.2; }
 
   100% {
     opacity: 0.4; } }
 
-@-moz-keyframes spinner {
+@-moz-keyframes spin {
   0% {
     opacity: 0.2; }
 
   100% {
     opacity: 0.4; } }
 
-@-ms-keyframes spinner {
+@-ms-keyframes spin {
   0% {
     opacity: 0.2; }
 
   100% {
     opacity: 0.4; } }
 
-@-o-keyframes spinner {
+@-o-keyframes spin {
   0% {
     opacity: 0.2; }
 
   100% {
     opacity: 0.4; } }
 
-@-keyframes spinner {
+@-keyframes spin {
   0% {
     opacity: 0.2; }
 
   100% {
     opacity: 0.4; } }
 
-.spinner {
+.spin {
   position: relative;
   display: block;
   width: 128px;
   height: 128px;
   margin: 16px; }
-  .spinner.gleam {
+  .spin.gleam {
     background: #444444;
     border-radius: 16px; }
-    .spinner.gleam > * {
+    .spin.gleam > * {
       background: white; }
-  .spinner.dusky {
+  .spin.dusky {
     background: white;
     border-radius: 16px; }
-    .spinner.dusky > * {
+    .spin.dusky > * {
       background: #444444; }
-  .spinner > * {
+  .spin > * {
     opacity: 0.2;
     position: absolute;
     width: 8%;
@@ -59,10 +59,10 @@
     background: black;
     border-radius: 128px;
     box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.4);
-    -webkit-animation: spinner 0.6s linear infinite;
-    -moz-animation: spinner 0.6s linear infinite;
-    animation: spinner 0.6s linear infinite; }
-    .spinner > *:nth-child(1) {
+    -webkit-animation: spin 0.6s linear infinite;
+    -moz-animation: spin 0.6s linear infinite;
+    animation: spin 0.6s linear infinite; }
+    .spin > *:nth-child(1) {
       -webkit-transform: rotate(40deg) translate(0, -120%);
       -moz-transform: rotate(40deg) translate(0, -120%);
       -ms-transform: rotate(40deg) translate(0, -120%);
@@ -71,7 +71,7 @@
       -webkit-animation-delay: 0.06667s;
       -moz-animation-delay: 0.06667s;
       animation-delay: 0.06667s; }
-    .spinner > *:nth-child(2) {
+    .spin > *:nth-child(2) {
       -webkit-transform: rotate(80deg) translate(0, -120%);
       -moz-transform: rotate(80deg) translate(0, -120%);
       -ms-transform: rotate(80deg) translate(0, -120%);
@@ -80,7 +80,7 @@
       -webkit-animation-delay: 0.13333s;
       -moz-animation-delay: 0.13333s;
       animation-delay: 0.13333s; }
-    .spinner > *:nth-child(3) {
+    .spin > *:nth-child(3) {
       -webkit-transform: rotate(120deg) translate(0, -120%);
       -moz-transform: rotate(120deg) translate(0, -120%);
       -ms-transform: rotate(120deg) translate(0, -120%);
@@ -89,7 +89,7 @@
       -webkit-animation-delay: 0.2s;
       -moz-animation-delay: 0.2s;
       animation-delay: 0.2s; }
-    .spinner > *:nth-child(4) {
+    .spin > *:nth-child(4) {
       -webkit-transform: rotate(160deg) translate(0, -120%);
       -moz-transform: rotate(160deg) translate(0, -120%);
       -ms-transform: rotate(160deg) translate(0, -120%);
@@ -98,7 +98,7 @@
       -webkit-animation-delay: 0.26667s;
       -moz-animation-delay: 0.26667s;
       animation-delay: 0.26667s; }
-    .spinner > *:nth-child(5) {
+    .spin > *:nth-child(5) {
       -webkit-transform: rotate(200deg) translate(0, -120%);
       -moz-transform: rotate(200deg) translate(0, -120%);
       -ms-transform: rotate(200deg) translate(0, -120%);
@@ -107,7 +107,7 @@
       -webkit-animation-delay: 0.33333s;
       -moz-animation-delay: 0.33333s;
       animation-delay: 0.33333s; }
-    .spinner > *:nth-child(6) {
+    .spin > *:nth-child(6) {
       -webkit-transform: rotate(240deg) translate(0, -120%);
       -moz-transform: rotate(240deg) translate(0, -120%);
       -ms-transform: rotate(240deg) translate(0, -120%);
@@ -116,7 +116,7 @@
       -webkit-animation-delay: 0.4s;
       -moz-animation-delay: 0.4s;
       animation-delay: 0.4s; }
-    .spinner > *:nth-child(7) {
+    .spin > *:nth-child(7) {
       -webkit-transform: rotate(280deg) translate(0, -120%);
       -moz-transform: rotate(280deg) translate(0, -120%);
       -ms-transform: rotate(280deg) translate(0, -120%);
@@ -125,7 +125,7 @@
       -webkit-animation-delay: 0.46667s;
       -moz-animation-delay: 0.46667s;
       animation-delay: 0.46667s; }
-    .spinner > *:nth-child(8) {
+    .spin > *:nth-child(8) {
       -webkit-transform: rotate(320deg) translate(0, -120%);
       -moz-transform: rotate(320deg) translate(0, -120%);
       -ms-transform: rotate(320deg) translate(0, -120%);
@@ -134,7 +134,7 @@
       -webkit-animation-delay: 0.53333s;
       -moz-animation-delay: 0.53333s;
       animation-delay: 0.53333s; }
-    .spinner > *:nth-child(9) {
+    .spin > *:nth-child(9) {
       -webkit-transform: rotate(360deg) translate(0, -120%);
       -moz-transform: rotate(360deg) translate(0, -120%);
       -ms-transform: rotate(360deg) translate(0, -120%);

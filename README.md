@@ -1,45 +1,26 @@
-# jQuery Spinner
+# jQuery Spin
 
-Spinner is a jQuery plugin designed to animated spinners with only CSS and JavaScript.
+Spin is a jQuery plugin designed to created animated loading indicators with only CSS and JavaScript.
 
 ## Installation
 
 To install copy the *javascripts* and *stylesheets* directories into your project and add the following snippet to the header:
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
-    <script src="javascripts/jquery.spinner.js" type="text/javascript"></script>
-    <link href="stylesheets/jquery.spinner.css" rel="stylesheet" type="text/css" />
-
-Or, if you are using Ruby on Rails with the asset pipeline:
-
-    # Gemfile
-    gem 'jquery-rails'
-    gem 'jquery-spinner-rails'
-
-    # app/assets/javascripts/application.js
-    //= require jquery
-    //= require jquery.spinner
-    //= require_self
-    //= require_tree
-
-    # app/assets/stylesheets/application.css
-    /*
-     *= require jquery.spinner
-     *= require_self
-     *= require_tree
-    */
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js" type="text/javascript"></script>
+    <script src="javascripts/jquery.spin.js" type="text/javascript"></script>
+    <link href="stylesheets/jquery.spin.css" rel="stylesheet" type="text/css" />
 
 ## Examples
 
-Setting up a spinner is easy:
+Setting up a spinner is simple. The following snippet is all that is needed:
 
-    <div class="spinner" data-spinner />
+    <div class="spin" data-spin />
 
-Some advanced options include:
+To add spinners manually try:
 
-    $('.spinner').spinner();
-    $('.spinner').spinner('show');
-    $('.spinner').spinner('hide');
+    $('.spin').spin();
+    $('.spin').spin('show');
+    $('.spin').spin('hide');
 
 
 ## Copyright

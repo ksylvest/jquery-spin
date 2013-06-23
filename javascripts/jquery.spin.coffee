@@ -1,16 +1,21 @@
 ###
-jQuery Spinner
-Copyright 2012 Kevin Sylvestre
+jQuery Spin
+Copyright 2013 Kevin Sylvestre
 ###
 
 "use strict"
 
 $ = jQuery
 
-class Spinner
+class Spin
   defaults:
     petals: 9
-  
+
+  @spin: (element, options = {}) ->
+    debugger
+    @spins ?= {}
+    @spins[element] ?= new Spin(element, options)
+
   constructor: (element, options) ->
     @$element = $(element)
     @options = $.extend {}, @defaults, options
@@ -24,7 +29,7 @@ class Spinner
   
   destroy: ->
     @$element.empty()
-    @$element.data('spinner', undefined)
+    @$element.data('spin', undefined)
   
   configure: ->
     @$element.empty()
@@ -32,12 +37,10 @@ class Spinner
       $petal = $("<div />")
       @$element.append $petal
 
-$.fn.spinner = (options) ->
+$.fn.spin = (options) ->
   $(this).each ->
-    $this = $(this)    
-    data = $this.data('spinner')
-    $this.data('spinner', data = new Spinner($this, options)) unless data?
-    data[options]() if typeof options is 'string'
+    spin = Spin.spin(this, options)
+    spin[options]() if typeof options is 'string'
 
 $ ->
-  $('[data-spin="spinner"]').spinner()
+  $('[data-spin]').spin()

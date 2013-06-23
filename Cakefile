@@ -1,4 +1,4 @@
-PROJECT = "jquery.spinner"
+PROJECT = "jquery.spin"
 
 {spawn, exec} = require "child_process"
 
