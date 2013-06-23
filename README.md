@@ -1,6 +1,6 @@
 # jQuery Spin
 
-Spin is a jQuery plugin designed to created animated loading indicators with only CSS and JavaScript.
+Spin is a jQuery plugin that creates animated loading indicators with only CSS and JavaScript.
 
 ## Installation
 
