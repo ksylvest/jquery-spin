@@ -1,6 +1,6 @@
 {
   "name": "spin",
-  "title": "jQuery Sping",
+  "title": "jQuery Spin",
   "description": "Spin is a jQuery plugin designed to created animated loading indicators with only CSS and JavaScript.",
   "keywords": ["progress","loading","indiciator"],
   "version": "1.0.4",
