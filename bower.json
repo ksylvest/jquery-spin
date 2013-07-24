@@ -1,0 +1,21 @@
+{
+  "name": "bower",
+  "version": "1.1.0",
+  "main": [ "./javascripts/jquery.bower.js","./stylesheets/jquery.bower.css" ],
+  "ignore": 
+  [
+    "**/*.sass",
+    "**/*.coffee",
+    "**/sample.*",
+    "**/rainbow.*",
+    "bourbon",
+    "neat",
+    "packages",
+    "images",
+    "Cakefile",
+    "Gemfile",
+    "Gemfile.*",
+    "index.*"
+  ],
+  "dependencies": { "jquery": "latest" }
+}

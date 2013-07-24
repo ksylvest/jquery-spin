@@ -10,6 +10,11 @@ To install copy the *javascripts* and *stylesheets* directories into your projec
     <script src="javascripts/jquery.spin.js" type="text/javascript"></script>
     <link href="stylesheets/jquery.spin.css" rel="stylesheet" type="text/css" />
 
+This plugin is also registered under http://bower.io/ to simplify integration. Try:
+
+    npm install -g bower
+    bower install spin
+
 ## Examples
 
 Setting up a spinner is simple. The following snippet is all that is needed:
