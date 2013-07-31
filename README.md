@@ -40,6 +40,10 @@ Styling a spinner is easy:
       }
     }
 
+## Status
+
+[![Status](https://travis-ci.org/ksylvest/jquery-spin.png)](https://travis-ci.org/ksylvest/jquery-spin)
+
 ## Copyright
 
 Copyright (c) 2010 - 2012 Kevin Sylvestre. See LICENSE for details.
