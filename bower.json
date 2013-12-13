@@ -1,7 +1,7 @@
 {
-  "name": "bower",
-  "version": "1.1.1",
-  "main": [ "./javascripts/jquery.bower.js","./stylesheets/jquery.bower.css" ],
+  "name": "spin",
+  "version": "1.1.2",
+  "main": [ "./javascripts/jquery.spin.js","./stylesheets/jquery.spin.css" ],
   "ignore": 
   [
     "**/*.sass",
