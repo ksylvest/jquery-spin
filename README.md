@@ -15,6 +15,28 @@ This plugin is also registered under http://bower.io/ to simplify integration. T
     npm install -g bower
     bower install spin
 
+Lastly this plugin is registered as a https://rails-assets.org/ to simplify integration with Ruby on Rails applications:
+
+**Gemfile**
+
+    + source 'https://rails-assets.org'
+    ...
+    + gem 'rails-assets-spin'
+
+**application.css**
+
+    /*
+     ...
+     *= require spin
+     ...
+    */
+
+**application.js**
+
+    //= require jquery
+    ...
+    //= require spin
+
 ## Examples
 
 Setting up a spinner is simple. The following snippet is all that is needed:
