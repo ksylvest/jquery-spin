@@ -1,20 +1,28 @@
 {
   "name": "spin",
-  "version": "1.1.3",
+  "version": "1.1.4",
   "main": [ "./javascripts/jquery.spin.js","./stylesheets/jquery.spin.css" ],
   "ignore": 
   [
     "**/*.sass",
     "**/*.coffee",
     "**/sample.*",
-    "**/rainbow.*",
+    "**/rainbow.js",
+    "**/rainbow.css",
+    "**/jquery.js",
+    "**/jquery.css",
+    "sample/**/*",
+    "spec/**/*",
     "bourbon",
     "neat",
     "packages",
     "images",
     "Cakefile",
+    "Rakefile",
     "Gemfile",
     "Gemfile.*",
+    ".git*"
+    ".travis*"
     "index.*"
   ],
   "dependencies": { "jquery": "latest" }
