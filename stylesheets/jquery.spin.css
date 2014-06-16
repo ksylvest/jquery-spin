@@ -1,6 +1,6 @@
 /* jQuery Modal
- * Copyright 2013 Kevin Sylvestre
- * 1.1.5
+ * Copyright 2014 Kevin Sylvestre
+ * 1.1.6
  */
 @-webkit-keyframes spin {
   0% {
@@ -8,35 +8,30 @@
 
   100% {
     opacity: 0.4; } }
-
 @-moz-keyframes spin {
   0% {
     opacity: 0.2; }
 
   100% {
     opacity: 0.4; } }
-
 @-ms-keyframes spin {
   0% {
     opacity: 0.2; }
 
   100% {
     opacity: 0.4; } }
-
 @-o-keyframes spin {
   0% {
     opacity: 0.2; }
 
   100% {
     opacity: 0.4; } }
-
 @-keyframes spin {
   0% {
     opacity: 0.2; }
 
   100% {
     opacity: 0.4; } }
-
 .spin {
   position: relative;
   display: inline-block;

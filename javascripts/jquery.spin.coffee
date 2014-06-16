@@ -1,7 +1,7 @@
 ###
 jQuery Spin
-Copyright 2013 Kevin Sylvestre
-1.1.5
+Copyright 2014 Kevin Sylvestre
+1.1.6
 ###
 
 "use strict"

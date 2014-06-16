@@ -68,4 +68,4 @@ Styling a spinner is easy:
 
 ## Copyright
 
-Copyright (c) 2010 - 2012 Kevin Sylvestre. See LICENSE for details.
+Copyright (c) 2010 - 2014 Kevin Sylvestre. See LICENSE for details.

@@ -1,6 +1,6 @@
 {
   "name": "spin",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "main": [ "./javascripts/jquery.spin.js","./stylesheets/jquery.spin.css" ],
   "ignore": 
   [
